@@ -8,6 +8,7 @@ export function Home() {
         serviceName='classic sew in (middle/side part'
         price='£125'
         serviceProvider='stephanie lebby hair'
+        isServiceNew={true}
       />
       <ServiceCard
         serviceName='hydro-bonding'
