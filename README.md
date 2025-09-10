@@ -16,3 +16,9 @@ If you are developing a production application, we recommend using TypeScript wi
 Discovery platform for inclusive beauty services
 
 ![Service Page Example - the thread](src/assets/the_thread.png)
+
+Built with:
+- React Frontend
+- Python Pydantic and Fast API Backend
+- PostgreSQL database
+- Render cloud application platform
