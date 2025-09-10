@@ -96,17 +96,17 @@ const Service = () => {
         <div className='flex flex-row gap-3'>
           <ServiceCard
             serviceName='fulani braids'
-            price='£100'
+            price={100}
             serviceProvider='marla mae hair'
           />{' '}
           <ServiceCard
             serviceName='braided ponytail'
-            price='60'
+            price={60}
             serviceProvider='marla mae hair'
           />{' '}
           <ServiceCard
             serviceName='smedium knotless braids'
-            price='£135'
+            price={135}
             serviceProvider='marla mae hair'
             isServiceNew={true}
           />{' '}

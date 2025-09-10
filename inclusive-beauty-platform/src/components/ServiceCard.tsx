@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 interface ServiceCardProps {
   serviceName: string;
-  price: string;
+  price: number;
   serviceProvider: string;
   isServiceNew?: boolean;
 }
@@ -34,7 +34,7 @@ export const ServiceCard = ({
           <div className='card card-border bg-base-100 w-96 max-w-lg'>
             <div className='card-body'>
               <h2 className='card-title'>{serviceName}</h2>
-              <p>from {price}</p>
+              <p>from £{price}</p>
               <p>{serviceProvider}</p>
               <div className='card-actions justify-end'>
                 <button className='btn btn-primary' onClick={handleBookNow}>
