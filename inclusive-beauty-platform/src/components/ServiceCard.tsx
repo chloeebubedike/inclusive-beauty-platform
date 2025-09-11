@@ -7,12 +7,14 @@ interface ServiceCardProps {
   price: number;
   serviceProvider: string;
   isServiceNew?: boolean;
+  location: string;
 }
 export const ServiceCard = ({
   serviceName,
   price,
   serviceProvider,
   isServiceNew,
+  location,
 }: ServiceCardProps) => {
   const navigate = useNavigate();
 
@@ -36,6 +38,7 @@ export const ServiceCard = ({
               <h2 className='card-title'>{serviceName}</h2>
               <p>from £{price}</p>
               <p>{serviceProvider}</p>
+              <p>{location}</p>
               <div className='card-actions justify-end'>
                 <button className='btn btn-primary' onClick={handleBookNow}>
                   book now

@@ -7,6 +7,7 @@ interface Service {
   price: number;
   provider: string;
   isNew: boolean;
+  location: string;
 }
 
 interface HomeProps {
@@ -22,6 +23,7 @@ const Home = ({ services }: HomeProps) => {
           price={service.price}
           serviceProvider={service.provider}
           isServiceNew={service.isNew}
+          location={service.location}
         />
       ))}
     </div>

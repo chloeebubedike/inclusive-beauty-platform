@@ -1,5 +1,6 @@
 import React from 'react';
 import { ServiceCard } from '../components/ServiceCard';
+import FAQ from '../components/FAQ';
 
 const Service = () => {
   return (
@@ -98,17 +99,20 @@ const Service = () => {
             serviceName='fulani braids'
             price={100}
             serviceProvider='marla mae hair'
+            location='New Cross Gate'
           />{' '}
           <ServiceCard
             serviceName='braided ponytail'
             price={60}
             serviceProvider='marla mae hair'
+            location='New Cross Gate'
           />{' '}
           <ServiceCard
             serviceName='smedium knotless braids'
             price={135}
             serviceProvider='marla mae hair'
             isServiceNew={true}
+            location='New Cross Gate'
           />{' '}
         </div>
       </div>
