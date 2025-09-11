@@ -25,13 +25,14 @@ class Service(BaseModel):
     price: float
     provider: str
     isNew: bool
+    location: str
 
 # TODO: Replace dummy data with data from db
 services = [
-    Service(name="classic sew in", price=125, provider="stephanie lebby", isNew=False),
-    Service(name="hydro-bonding", price=120, provider="stephanie lebby",  isNew=True),
-    Service(name="boho knotless braids", price=180, provider="marla mae",  isNew=False),
-    Service(name="keratin blow dry", price=180, provider="house of hair",  isNew=False),
+    Service(name="classic sew in", price=125, provider="stephanie lebby", isNew=False, location="New Cross Gate, London"), 
+    Service(name="hydro-bonding", price=120, provider="stephanie lebby",  isNew=True, location="New Cross Gate, London"),
+    Service(name="boho knotless braids", price=180, provider="marla mae",  isNew=False, location="Queens Parade, London"),
+    Service(name="keratin blow dry", price=180, provider="house of hair",  isNew=False, location="Shephards Bush London"),
 
 ]
 
